@@ -1,0 +1,11 @@
+framework module dnoframework {
+  umbrella header "dnoframework.h"
+
+  export *
+  module * { export * }
+}
+
+module dnoframework.Swift {
+    header "dnoframework-Swift.h"
+    requires objc
+}
